@@ -1,0 +1,5 @@
+package com.apitest.apirest.usuarioservice;
+
+public interface UsuarioService {
+
+}

@@ -1,0 +1,15 @@
+package com.apitest.apirest.usuarioservice;
+
+import java.util.List;
+
+import com.apitest.apirestpueba.entity.Usuario;
+
+public interface UsuarioService {
+	
+	 Usuario createUser(Usuario user);
+	    Usuario updateUsuario(Long id, Usuario user);
+	    void deleteUser(Long id);
+	    Usuario getUserById(Long id);
+	    List<Usuario> getAllUsers();
+
+}

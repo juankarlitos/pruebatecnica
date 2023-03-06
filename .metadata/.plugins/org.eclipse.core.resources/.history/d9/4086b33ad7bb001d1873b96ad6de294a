@@ -1,0 +1,5 @@
+package com.apitest.apirestprueba.repository;
+
+public interface JpaRepository {
+
+}
